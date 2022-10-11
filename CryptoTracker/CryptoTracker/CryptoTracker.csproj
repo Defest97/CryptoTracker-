@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="3305878.png" />
+    <None Remove="D3yJiObXoAA0ezc.png" />
+    <None Remove="Do1uCJYX4AARK__.png" />
+    <None Remove="DogeCoin_logo_cercle.png" />
+    <None Remove="ee14df2266eed395198b0e48a4e2cff7--bitcoin-logo-bitcoin-currency.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="3305878.png" />
+    <Resource Include="D3yJiObXoAA0ezc.png" />
+    <Resource Include="Do1uCJYX4AARK__.png" />
+    <Resource Include="DogeCoin_logo_cercle.png" />
+    <Resource Include="ee14df2266eed395198b0e48a4e2cff7--bitcoin-logo-bitcoin-currency.jpg" />
+  </ItemGroup>
+
+</Project>
